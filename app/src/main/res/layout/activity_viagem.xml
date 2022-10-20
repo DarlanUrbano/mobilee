@@ -1,0 +1,74 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/destino"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="50sp"
+            android:layout_marginTop="100dp"
+            />
+
+        <TextView
+            android:id="@+id/totalPessoas"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Total de pessoas:"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginTop="50dp"/>
+
+        <TextView
+            android:id="@+id/duracao"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Duração:"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/custo"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Custo total:"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/custoPessoa"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Custo por pessoa:"
+            android:textAlignment="textStart"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/apagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="#B8002B"
+            android:text="Apagar"
+            android:textAllCaps="false"
+            android:textSize="20dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

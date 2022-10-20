@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/edtDestino"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Destino"
+
+        />
+    <EditText
+        android:id="@+id/duracao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Duração da viagem"
+        android:layout_marginTop="50dp"/>
+    <EditText
+        android:id="@+id/quantidade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginTop="20dp"
+        android:hint="Número de viajantes" />
+    <Button
+        android:id="@+id/btnNviagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nova Viagem"
+        android:backgroundTint="#0047FB"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+    <Button
+        android:id="@+id/btnViagens"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Viagens"
+        android:backgroundTint="#0047FB"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Deletar Usuario"
+        android:backgroundTint="#C80E00"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:textSize="20dp"/>
+
+</LinearLayout>
